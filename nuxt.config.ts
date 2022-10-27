@@ -2,7 +2,6 @@
 export default defineNuxtConfig({
   modules: [
     '@unocss/nuxt',
-    '@nuxtjs/color-mode'
   ],
   experimental: {
     reactivityTransform: true
@@ -18,6 +17,6 @@ export default defineNuxtConfig({
     rules: [],
   },
   colorMode: {
-    classSuffix: ''
-  }
+    classSuffix: '',
+  },
 })

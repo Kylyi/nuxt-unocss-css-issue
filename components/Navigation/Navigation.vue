@@ -2,7 +2,7 @@
   <header bg="white dark:dark" >
     <div class="navigation">
       <nav flex="~ 1 gap-x-2 gap-y-1 wrap" min-h="11">
-          <div class="inner">
+          <div bg="red">
             Whatever...
           </div>
       </nav>
@@ -19,15 +19,5 @@ header {
 
 .navigation {
   --apply: w-full flex flex-gap-2 p-x-1 min-h-13 lg:container m-x-auto;
-}
-
-.inner {
-  display: flex;
-  flex-grow: 1;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  min-height: 44px;
-  margin-block: 0.25rem;
 }
 </style>
